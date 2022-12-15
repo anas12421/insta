@@ -1,0 +1,24 @@
+
+
+.backtotop i {
+  height: 40px;
+  width: 40px;
+  background-color: #E90024;
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #fff;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  animation: btt 0.8s linear infinite;
+  -webkit-animation: btt 0.8s linear infinite;
+  display: none;
+  z-index: 998;
+}

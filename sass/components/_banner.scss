@@ -1,0 +1,46 @@
+#banner {
+  margin-top: 172px;
+  .banner_text {
+    h1 {
+      font-weight: 600;
+      font-size: 65px;
+      line-height: 85px;
+      color: #1E1E1E;
+
+      span {
+        color: #E90024;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #787878;
+
+    }
+
+    a {
+      font-weight: 600;
+      font-size: 20px;
+      padding: 16px 34px;
+      border: 1px solid #E90024;
+      margin-top: 21px;
+      border-radius: 5px;
+      color: #E90024;
+      text-transform: capitalize;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+
+      &:hover {
+        color: white;
+        background-color: #E90024;
+      }
+    }
+  }
+}

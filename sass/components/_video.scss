@@ -1,0 +1,79 @@
+#video {
+  margin-top: 150px;
+
+  .video_bg {
+    background: url(../images/video_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // padding: 260px 0;
+    border-radius: 30px;
+    position: relative;
+    height: 700px;
+
+    .video_item {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+
+      .video_circle {
+        width: 183px;
+        height: 183px;
+        background: rgba(233, 0, 36, 0.1);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        line-height: 183px;
+        animation: big_circle 2s linear infinite;
+        -webkit-animation: big_circle 2s linear infinite;
+        a
+{
+          width: 129px;
+          height: 129px;
+          background: rgba(233, 0, 36, 0.1);
+          line-height: 129px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          animation: small_circle 2s linear infinite;
+          -webkit-animation: small_circle 2s linear infinite;
+          z-index: 450;
+
+          i {
+            color: #E90024;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            animation: play_btn 2s linear infinite;
+            -webkit-animation: play_btn 2s linear infinite;
+            z-index: 500;
+}
+        }
+      }
+    }
+  }
+}

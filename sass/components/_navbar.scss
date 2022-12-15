@@ -1,0 +1,84 @@
+.menu {
+  padding: 45px 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+
+  &.menu_ex {
+    background-color: white;
+    padding: 5px 0 !important;
+    animation: menu_ex 1s;
+    -webkit-animation: menu_ex 1s;
+  }
+
+  .main_menu {
+    ul {
+      li {
+        margin: 0 30px;
+
+        a {
+          font-weight: 500;
+          font-size: 18px;
+          color: #4B4B4B !important;
+          text-transform: capitalize;
+          padding: 0 !important;
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+
+          &:hover {
+            color: #E90024 !important;
+          }
+
+          &.active {
+            color: #E90024 !important;
+          }
+        }
+      }
+    }
+
+  }
+  .extra_btns {
+    i {
+      color: black;
+      font-size: 20px;
+      margin-left: 8px;
+    }
+
+    a {
+      padding: 9px 38px;
+      font-weight: 600;
+      font-size: 20px;
+      color: #FFFFFF;
+      text-transform: capitalize;
+      background: #E90024;
+      border-radius: 5px;
+      margin-left: 15px;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      border: 1px solid #E90024;
+
+      &:hover {
+        background-color: transparent;
+        color: #E90024 !important;
+      }
+    }
+  }
+
+}
+
+
+
+// .link-active{
+//   &:active,
+//   &:hover {
+//       color: red;
+//   }
+// }

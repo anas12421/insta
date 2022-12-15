@@ -1,0 +1,49 @@
+#likes {
+  margin-top: 103px;
+
+
+  .like_bg {
+    padding: 85px 0;
+    background: #F4F4F4;
+    border-radius: 30px;
+    position: relative;
+
+    .like_head {
+      h2 {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        color: #1E1E1E;
+      }
+    }
+
+    .like_counter {
+      text-align: center;
+
+      span {
+        font-weight: 700;
+        font-size: 45px;
+        color: #1E1E1E;
+        text-transform: uppercase;
+
+      }
+
+      p {
+        font-size: 16px;
+        color: #787878;
+      }
+    }
+
+    .like_shape{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: translate(-30% , 30%);
+      -webkit-transform: translate(-30% , 30%);
+      -moz-transform: translate(-30% , 30%);
+      -ms-transform: translate(-30% , 30%);
+      -o-transform: translate(-30% , 30%);
+      z-index: -1;
+}
+  }
+}
